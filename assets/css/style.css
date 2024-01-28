@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contactos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    
+    
+   
+    
+    
+   
+}
+.contactos::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contactos::-webkit-scrollbar-thumb {
+    border: solid 2px #bec1bb;
+    border-radius: 5px;
+    background-color: #bec1bb;
+}
+
+img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+}
+#img {
+    border-radius: 50%;
+    width: 35px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin-bottom: 0;
+    
+   
+    
+}
+main {
+    display: flex;
+   
+    
+    
+}
+li {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px #bec1bb solid;
+    width: 100%;
+    padding-left: 85px;
+    
+    
+    
+
+}
+li:nth-child(1) {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding-bottom: 15px;
+
+}
+.child-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-width: auto;
+    
+    
+   
+    }
+.nombre{
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+    line-height: 0%;
+    padding-left: 15px;
+    padding-top: 28px;
+}
+.principal {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contenedor-plataforma {
+     text-align: center;
+     min-width: 300px;
+     max-width: 500px;
+}
+.contactos p {
+    padding-left: 20px;
+    font-weight: lighter;
+    display: flex;
+    font-size: 16px;
+    
+    
+}
+span{
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+button {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    background-color: #A491D2;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #CDC3E6;
+}
+.nombre p {
+    padding: 0;
+}
+.barra{
+    padding-left: 120px;
+    color: #828485;
+    font-size: 25px;
+
+}
+.activa {
+    color: #828485;
+    
+}
+.contacto {
+    margin-top: 0;
+    padding-bottom: 0px;
+    
+    
+    
+}
+.hand{
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+}
+
